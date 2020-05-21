@@ -1,5 +1,8 @@
 @import url(./vendor/normalize.css);
 @import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/lead/lead.css);
 
 
 
@@ -21,7 +24,15 @@
   font-weight: 900;
 }
 
+.language {
+  color: red;
+  list-style-type: none;
+}
 
+.language__item {
+  display: inline;
+  text-decoration: none;
+}
 
 
 
