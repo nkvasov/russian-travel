@@ -1,11 +1,14 @@
 .intro {
-  padding: 0 0 92px 5%;
-  background-color: olive;
-  width: 690px;
+  padding: 0 0 92px;
+  margin: 0 auto;
+  /* background-color: olive; */
+  width: 90%;
+  max-width: 984px;
+
 }
 
 .intro__title {
-  margin: 0 auto 40px;
+  margin: 0 0 40px;
   padding: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 54px;
@@ -13,11 +16,11 @@
   font-weight: 900;
   text-align: left;
   color: #ffffff;
-  /* width: 720px; */
+  max-width: 690px;
 }
 
 .intro__text {
-  margin: 0 auto 32px;
+  margin: 0 0 32px;
   padding: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -25,6 +28,8 @@
   font-weight: 400;
   text-align: left;
   color: #ffffff;
+  max-width: 690px;
+
 }
 
 .intro__list {

@@ -1,6 +1,8 @@
 .lead {
   margin: 0 auto;
   padding: 0 0 92px;
+  width: 90%;
+  min-width: 768px;
   max-width: 984px;
   /* background-color: blanchedalmond; */
 }
@@ -31,7 +33,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
-    /* background-color: red; */
+    background-color: red;
     margin: 0 auto 64px;
 }
 }
