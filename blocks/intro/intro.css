@@ -1,9 +1,10 @@
 .intro {
-  padding: 0 0 92px;
+  padding: 0 48px 92px;
   margin: 0 auto;
-  /* background-color: olive; */
-  width: 90%;
+  background-color: olive;
+  /* width: 90%; */
   max-width: 984px;
+  box-sizing: border-box;
 
 }
 
@@ -68,6 +69,13 @@
     /* text-align: left; */
     /* color: #ffffff; */
     /* max-width: 690px; */
+  }
+
+  .intro {
+    padding: 0 24px 92px;
+    margin: 0 auto;
+    /* width: 90%; */
+
   }
 }
 
