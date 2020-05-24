@@ -44,7 +44,7 @@
   list-style-type: none;
 }
 
-.intro__list-item > span {
+.intro__list-value {
   font-weight: 400;
 }
 
@@ -58,21 +58,21 @@
 }
 
 @media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 320px) {
   .intro__title {
     /* margin: 0 0 40px; */
     /* padding: 0; */
     /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
-    font-size: 32px;
-    line-height: 1.09;
+    font-size: calc(16.2857px + 275vw/56);
+    /* line-height: 1.09; */
     /* font-weight: 900; */
     /* text-align: left; */
     /* color: #ffffff; */
     /* max-width: 690px; */
   }
+}
+
+@media screen and (max-width: 320px) {
+
 
 
 }
