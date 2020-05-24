@@ -1,10 +1,10 @@
 .lead {
   margin: 0 auto;
   padding: 0 0 92px;
-  width: 90%;
-  min-width: 768px;
+  /* width: 90%; */
+  width: calc(100% - ((100% - 768px) * 0.1875));
   max-width: 984px;
-  /* background-color: blanchedalmond; */
+  background-color: blanchedalmond;
 }
 
 .lead__title {
@@ -16,7 +16,7 @@
   font-weight: 900;
   text-align: center;
   color: #ffffff;
-  width: 720px;
+  max-width: 720px;
 }
 
 .lead__subtitle {
@@ -28,20 +28,15 @@
   font-weight: 400;
   text-align: center;
   color: #ffffff;
-  width: 640px;
+  max-width: 640px;
 }
 
-@media screen and (min-width: 1280px) {
-  .lead__subtitle {
-    background-color: red;
-    margin: 0 auto 64px;
-}
-}
+
 
 .lead__image {
   margin: 0 0 8px;
   padding: 0;
-  width: 100%;
+  width: 50%;
 }
 
 .lead__caption {
@@ -56,3 +51,76 @@
   padding: 0;
 
 }
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    /* margin: 0 auto; */
+    /* padding: 0 0 92px; */
+    /* width: 90%; */
+    width: 100%;
+    /* max-width: 984px; */
+    /* background-color: blanchedalmond; */
+  }
+
+  .lead__title {
+    margin: 0 auto 16px;
+    /* padding: 0; */
+    /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
+    font-size: calc(40px + 8vw);
+    line-height: 1.1;
+    /* font-weight: 900; */
+    /* text-align: center; */
+    /* color: #ffffff; */
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    margin: 0 auto 16px;
+    /* padding: 0; */
+    /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
+    font-size: 40px;
+    line-height: 1.1;
+    /* font-weight: 900; */
+    /* text-align: center; */
+    /* color: #ffffff; */
+    max-width: 100%;
+  }
+
+  .lead__subtitle {
+    margin: 0 auto 40px;
+    /* padding: 0; */
+    /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
+    font-size: 16px;
+    line-height: 1.25;
+    /* font-weight: 400; */
+    /* text-align: center; */
+    /* color: #ffffff; */
+    /* width: 640px; */
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    background-color: red;
+    margin: 0 auto 64px;
+  }
+
+
+
+}
+

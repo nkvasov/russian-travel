@@ -1,4 +1,7 @@
 .page {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
   /* width: 100%; */
   background-color: #2A2C2F;
   /* height: 100vh;  */
@@ -6,7 +9,7 @@
   color: #ffffff;
 
   /* max-width: 1440px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   /* font-weight: 400; */
   -moz-osx-font-smoothing: grayscale;
@@ -15,4 +18,20 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   /* text-rendering: optimizeLegibility; */
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
