@@ -35,6 +35,14 @@
   }
 }
 
+
+@media screen and (max-width: 420px) {
+  .photo-grid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
