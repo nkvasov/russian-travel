@@ -1,25 +1,23 @@
 .content {
   margin: 0 auto;
   padding: 0 0 92px 0;
-  background-color: palegreen;
   width: 100%;
   max-width: 1184px ;
+
+  background-color: #2A2C2F;
+  color: #ffffff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 1280px) {
-
-}
-
-@media screen and (max-width: 1024px) {
-
-}
 
 @media screen and (max-width: 768px) {
   .content {
     padding-bottom: calc(44px + 6.25vw);
   }
-}
-
-@media screen and (max-width: 320px) {
-
 }

@@ -1,5 +1,6 @@
 @import url(./__item/language-block__item.css);
 @import url(./__link/language-block__link.css);
+@import url(./__link/_inactive/language-block__link_inactive.css);
 
 .language-block {
   margin: 0;

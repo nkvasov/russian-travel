@@ -1,8 +1,5 @@
 @import url(./__logo-link/header__logo-link.css);
 @import url(./__logo-image/header__logo-image.css);
-@import url(./../language-block/__item/language-block__item.css);
-@import url(./../language-block/__link/language-block__link.css);
-@import url(./../language-block/__link/_inactive/language-block__link_inactive.css);
 
 .header {
   display: flex;
