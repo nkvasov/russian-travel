@@ -16,7 +16,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-
+  .places {
+    padding-left: calc(9.375vw - 48px);
+    padding-right: calc(9.375vw - 48px);
+  }
 }
 
 @media screen and (max-width: 768px) {

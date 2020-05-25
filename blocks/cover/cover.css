@@ -3,6 +3,7 @@
 }
 
 .cover__link {
+  position: relative;
   margin: 0 auto;
   padding: 0;
   display: block;
@@ -13,6 +14,8 @@
   background-image: url(../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  /* сохраняем пропорции имиджа */
+  /* поэтому надписи ставим абсолютом */
   padding: 0 0 62.5% 0;
 }
 
@@ -23,7 +26,6 @@
   top: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-  /* z-index: 1; */
   transition: ease 200ms;
   width: 100%;
   height: 100%;
@@ -42,12 +44,10 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  z-index: 1;
 }
 
 .cover__title {
   margin: 0 auto 32px;
-  /* padding: 20% 0 0 0; */
   max-width: 560px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 72px;
@@ -103,3 +103,108 @@
 @media screen and (max-width: 420px) {
 
 }
+
+
+
+/*
+
+Копия
+.cover {
+  margin: 0 auto;
+}
+
+.cover__link {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+.cover__image {
+  position: relative;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 62.5% 0;
+}
+
+.cover__image::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: ease 200ms;
+  width: 100%;
+  height: 100%;
+}
+
+.cover__link:hover .cover__image::after {
+  opacity: 0.8;
+}
+
+.cover__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.cover__title {
+  margin: 0 auto 32px;
+  max-width: 560px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cover__subtitle {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 360px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .cover__text {
+  }
+
+  .cover__title {
+    margin: 0 auto 0.22222em;
+    max-width: 560px;
+    width: 90%;
+    font-size: calc(8.57px + 8.26vw);
+  }
+
+  .cover__subtitle {
+    max-width: 360px;
+    width: 90%;
+    font-size: calc(11.145px + 0.9vw);
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+} */
