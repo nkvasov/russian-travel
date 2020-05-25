@@ -1,0 +1,22 @@
+.footer__link-wrapper {
+  display: inline-block;
+  margin: 0 18px 0 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer__link-wrapper {
+    margin: 0 18px 0 0;
+    margin-right: calc(2.3vw);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer__link-wrapper {
+    display: block;
+    height: 56px;
+    margin: 0 18px 0 0;
+    padding: 0;
+  }
+}

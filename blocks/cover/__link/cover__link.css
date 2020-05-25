@@ -1,0 +1,11 @@
+.cover__link {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+
+.cover__link:hover .cover__image::after {
+  opacity: 0.8;
+}
