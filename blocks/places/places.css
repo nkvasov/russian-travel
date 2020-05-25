@@ -1,19 +1,19 @@
 .places {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
   margin: 0 auto;
   padding: 0 48px 92px;
   box-sizing: border-box;
-  background-color: burlywood;
-  /* width: 100%; */
-  /* max-width: 1184px; */
+
+  background-color: #2A2C2F;
+  color: #ffffff;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
 
-
-@media screen and (max-width: 1280px) {
-
-}
 
 @media screen and (max-width: 1024px) {
   .places {
@@ -28,12 +28,4 @@
     padding-left: 24px;
     padding-right: 24px;
   }
-}
-
-@media screen and (max-width: 420px) {
-
-}
-
-@media screen and (max-width: 320px) {
-
 }
