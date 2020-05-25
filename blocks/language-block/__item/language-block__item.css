@@ -1,0 +1,6 @@
+.language-block__item {
+  display: inline-block;
+  margin: 0;
+  padding: 0 0 0 18px;
+  box-sizing: border-box;
+}

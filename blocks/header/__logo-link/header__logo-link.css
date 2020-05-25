@@ -1,0 +1,10 @@
+.header__logo-link {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.header__logo-link:hover {
+  opacity: 0.8;
+}

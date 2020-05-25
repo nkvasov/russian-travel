@@ -1,0 +1,7 @@
+.language-block__link_inactive {
+  text-decoration: none;
+}
+
+.language-block__link_inactive:hover {
+  opacity: 0.8;
+}
