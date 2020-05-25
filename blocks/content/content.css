@@ -16,18 +16,10 @@
 
 @media screen and (max-width: 768px) {
   .content {
-    /* margin: 0 auto; */
-    padding: 0 0 88px 0;
-    /* width: 100%; */
-    /* max-width: 1184px ; */
+    padding-bottom: calc(44px + 6.25vw);
   }
 }
 
 @media screen and (max-width: 320px) {
-  .content {
-    /* margin: 0 auto; */
-    padding: 0 0 64px 0;
-    /* width: 100%; */
-    /* max-width: 1184px ; */
-  }
+
 }

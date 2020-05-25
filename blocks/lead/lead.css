@@ -5,7 +5,7 @@
   box-sizing: border-box;
   /* width: calc(100% - ((100% - 768px) * 0.1875 * 2)); */
 
-  max-width: 984px;
+  max-width: 1080px;
   background-color: black;
 }
 

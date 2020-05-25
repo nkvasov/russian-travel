@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 34fr 35fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
   grid-auto-flow: column;
   /* justify-content: center; */
@@ -8,10 +8,13 @@
   /* align-items: baseline; */
   gap: 48px 32px;
   margin: 0;
-  /* padding: 0 0 80px; */
-  background-color: moccasin;
-  max-width: 1000px;
-  width: 90%;
+  padding: 0 0 80px;
+  background-color: rosybrown
+  /* max-width: 1000px; */
+}
+
+.place:last-child {
+  padding-bottom: 0;
 }
 
 .place__title {
