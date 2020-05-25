@@ -2,7 +2,6 @@
   padding: 0 48px 92px;
   margin: 0 auto;
   background-color: olive;
-  /* width: 90%; */
   max-width: 984px;
   box-sizing: border-box;
 
@@ -34,7 +33,7 @@
 }
 
 .intro__list {
-  margin: 0 auto 32px;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -62,20 +61,14 @@
   .intro__title {
     /* margin: 0 0 40px; */
     /* padding: 0; */
-    /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
-    font-size: calc(16.2857px + 275vw/56);
-    /* line-height: 1.09; */
-    /* font-weight: 900; */
-    /* text-align: left; */
-    /* color: #ffffff; */
-    /* max-width: 690px; */
+    font-size: calc(15.6px + 5vw);
   }
 
   .intro {
-    padding: 0 24px 92px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: calc(44px + 6.25vw);
     margin: 0 auto;
-    /* width: 90%; */
-
   }
 }
 
