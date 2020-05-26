@@ -1,14 +1,20 @@
-.language-block__link {
+.header__language-link {
   color: #ffffff;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.17;
   text-align: right;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 420px) {
-  .language-block__link {
+  .header__language-link {
     font-size: 18px;
     line-height: 1.33;
   }
+}
+
+
+.header__language-link:hover {
+  opacity: 0.8;
 }
