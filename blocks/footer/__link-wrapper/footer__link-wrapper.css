@@ -15,7 +15,7 @@
 @media screen and (max-width: 420px) {
   .footer__link-wrapper {
     display: block;
-    height: 56px;
+    min-height: 56px;
     margin: 0 18px 0 0;
     padding: 0;
   }
