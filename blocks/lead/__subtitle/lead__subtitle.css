@@ -11,6 +11,20 @@
 }
 
 
+@media screen and (max-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: calc(24px + 3.125vw);
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     margin-bottom: calc(152px / 7 + 8em / 7);
