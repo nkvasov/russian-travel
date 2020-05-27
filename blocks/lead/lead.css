@@ -25,6 +25,7 @@
  .lead {
   padding-left: calc(18.75vw - 144px);
   padding-right: calc(18.75vw - 144px);
+  padding-bottom: calc(76px + 1.5625vw);
  }
 }
 
@@ -32,7 +33,7 @@
   .lead {
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: calc(44px + 6.25vw);
+    padding-bottom: calc(46.9px + 5.357vw);
     width: 100%;
   }
 }

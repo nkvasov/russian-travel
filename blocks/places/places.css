@@ -31,10 +31,10 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   .places {
     padding-bottom: calc(44px + 6.25vw);
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }

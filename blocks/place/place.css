@@ -51,7 +51,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-auto-flow: column;
-    row-gap: 32px;
+    row-gap: 33px;
     margin: 0;
     padding-bottom: 48px;
   }

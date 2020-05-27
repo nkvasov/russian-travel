@@ -26,6 +26,8 @@
   .intro {
     padding-left: calc(9.375vw - 48px);
     padding-right: calc(9.375vw - 48px);
+    padding-bottom: calc(76px + 1.5625vw);
+
   }
 }
 
@@ -33,7 +35,9 @@
   .intro {
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: calc(44px + 6.25vw);
+    /* padding-bottom: calc(44px + 6.25vw); */
+    padding-bottom: calc(46.9px + 5.357vw);
+
   }
 }
 

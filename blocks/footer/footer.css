@@ -29,14 +29,17 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 0 24px 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 420px) {
   .footer {
     display: block;
-    padding: 0 0 24px 14px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 14px;
   }
 }
 
