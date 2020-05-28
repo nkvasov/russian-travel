@@ -10,11 +10,10 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  min-height: 136px;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 10px 48px 20px;
+  padding: 28px 48px 56px;
 
   background-color: #2A2C2F;
   color: #ffffff;
@@ -29,16 +28,9 @@
 }
 
 
-
-@media screen and (max-width: 1280px) {
-  .header {
-    min-height: calc(96px + 3.125vw);
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .header {
-    min-height: 128px;
+    padding-bottom: 48px;
     padding-left: calc(9.375vw - 48px);
     padding-right: calc(9.375vw - 48px);
   }
@@ -46,7 +38,6 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    min-height: calc(92px + 4.6875vw);
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -54,7 +45,9 @@
 
 @media screen and (max-width: 425px) {
   .header {
-    padding: 0 16px 25px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
 }
