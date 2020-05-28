@@ -8,7 +8,7 @@
 * Карелия
 
 
-* [Ссылка на GitHub Pages](https://nkvasov.github.io/russian-travel/)
+[Ссылка на GitHub Pages](https://nkvasov.github.io/russian-travel/)
 
 
 
