@@ -39,7 +39,6 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    /* padding-bottom: calc(48px + 3.125vw); */
     grid-template-columns: calc(100vw - 428px) auto;
     /* grid-template-columns: 1fr minmax(min-content, 356px); */
 
@@ -52,7 +51,6 @@
     grid-template-rows: auto auto auto;
     grid-auto-flow: column;
     row-gap: 33px;
-    margin: 0;
     padding-bottom: 48px;
   }
 }
